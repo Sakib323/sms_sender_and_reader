@@ -1,4 +1,4 @@
-# sms_sender_and_reader
+# Reverse-Shell
 Actually this is a reverse shell.What is a reverse shell: Shell shoveling, in network security, refers to the act of redirecting the input and output of a shell to a service so that it can be remotely accessed. In computing, the most basic method of interfacing with the operating system is the shell.I have created this system for one of my fiverr client.This contain two apps 1/A admin app to control victim device 2/A reverse Shell (victim app) to fire up the services and host the data to firebase database.
 
 what this system can do>>
