@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background_for_show_wiew"
+    android:layout_height="match_parent"
+    tools:context=".sms_view">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/piechart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@id/edittext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/send_sms" />
+    <RelativeLayout
+        android:id="@+id/edittext"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/nmbr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type Phone Number"
+            android:fontFamily="@font/bungee"
+            android:textColorHint="@color/teal_200"
+            android:textColor="#02FB06"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/msg"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:textColor="#02FB06"
+            android:fontFamily="@font/bungee"
+            android:layout_below="@+id/nmbr"
+            android:hint="Type message here"
+            android:textColorHint="@color/teal_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/send_now"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/newbg1"
+        android:fontFamily="@font/bungee"
+        android:padding="7dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="Send Sms"
+        android:textAlignment="center"
+        android:textColor="#40F321"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

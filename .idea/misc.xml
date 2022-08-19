@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/adminapp/src/main/res/drawable/background.xml" value="0.1" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/adminapp/src/main/res/drawable/background_for_show_wiew.xml" value="0.1" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/adminapp/src/main/res/drawable/newbg1.xml" value="0.1" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/adminapp/src/main/res/drawable/newbg6.xml" value="0.1" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/adminapp/src/main/res/layout/activity_all_victim.xml" value="0.18" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/adminapp/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/adminapp/src/main/res/layout/activity_send_message_victim_id.xml" value="0.25" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/adminapp/src/main/res/layout/activity_send_sms.xml" value="0.3234375" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/adminapp/src/main/res/layout/activity_show_sms.xml" value="0.25" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/adminapp/src/main/res/layout/activity_sms_view.xml" value="0.25" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/adminapp/src/main/res/layout/activity_victim_by_android_id.xml" value="0.22" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/app/src/main/res/layout/activity_victim_list_for_send_sms.xml" value="0.3375" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/app/src/main/res/layout/noti.xml" value="0.3375" />
+        <entry key="..\:/Users/Sakib Ahmed/Desktop/sms_reader_demo_app/app/src/main/res/layout/notification.xml" value="0.3375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

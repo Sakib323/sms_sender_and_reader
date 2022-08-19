@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="50dp"
+    android:background="@drawable/bgforclaim"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bungee"
+        android:text="Admin Panel"
+        android:textColor="#FBA206"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/piechart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/control_panel" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/piechart"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/show_sms"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/newbg1"
+            android:fontFamily="@font/bungee"
+            android:padding="5dp"
+            android:text="show sms"
+            android:textAlignment="center"
+            android:textColor="#E1D6E3"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/send_sms"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/newbg1"
+            android:fontFamily="@font/bungee"
+            android:padding="5dp"
+            android:text="Send Sms"
+            android:textAlignment="center"
+            android:textColor="#21F33D"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
